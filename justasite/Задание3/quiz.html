@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+   <header>
+        <nav>
+            
+            <ul>
+                <li>
+                    <div class="candy-container">
+                        <div class="candy1"></div>
+                        <div class="candy2"></div>
+                        <div class="candy3"></div>
+                        <div class="candy4"></div>
+                        <div class="spark"></div>
+                    </div>
+                </li>
+                <li><a href="../index.html" >Главная</a></li>
+                <li><a href="../recipes.html">Рецепты</a></li>
+                <li><a href="../Задание1/gallery.html">Задание 1</a></li>
+                <li><a href="../Задание2/animations.html">Задание 2</a></li>
+                <li><a href="quiz.html" class="active">Задание 3</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+   <main>
+       
+        <h1>Тест: Русские ругательства</h1>
+        
+        
+        <div id="test-area">
+            
+        </div>
+        
+        <div id="no-questions">
+            <p>Вопросы закончились</p>
+        </div>
+        
+        <div id="results">
+            <h2>Результаты теста</h2>
+            <p id="score-text">Вы ответили правильно на <span id="correct-answers">0</span> из <span id="total-questions">0</span> вопросов</p>
+            <div id="questions-history" class="question-history">
+                
+            </div>
+            <button id="restart-btn">Пройти тест снова</button>
+        </div>
+    </main>
+
+   <footer>
+        <p>© 2025 Дубинин</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
